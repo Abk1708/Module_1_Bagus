@@ -2,7 +2,7 @@
 
 ----
 
-> ## Content
+> ## Table of Contents
 >
 > - [My Bio](#bio)
 >
@@ -16,11 +16,12 @@
 >
 > - [Week 00 Assignment Qualification](#assignment)
 >
+
+---
+
 <a id="bio"></a>
 
-## My Bio
-
-----
+## My Bio 👨‍💻
 
 ![It's a me](placeholder-profile-image.jpg "It's a me")
 
@@ -28,45 +29,51 @@ I'm a diploma fresh graduate from Jakarta State University in Electronic Enginee
 
 My hobby is reading novel and playing games. My favorite programming language is Javascript, HTML, and C++(although i'm still not that good with C++).
 
-<a id="links"></a>
-
-## My Links
-
 ----
 
-* Github : [@Abk1708](https://github.com/Abk1708).
-* LinkedIn :[alfathbaguskurnia](https://www.linkedin.com/in/alfath-bagus-kurnia-bab7ab1a5/)
+<a id="links"></a>
+
+## My Links :postbox:
+
+<p align="center">
+  <a target="_blank"href="https://github.com/Abk1708"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" /></a>&nbsp;&nbsp;
+  <a target="_blank"href="https://www.linkedin.com/in/alfath-bagus-kurnia-bab7ab1a5"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;&nbsp;
+</p>
+
+----
 
 <a id="skills"></a>
 
-## My Technical Skill
+## My Technical Skill :mechanic:
 
- ----
+<p align="center">
+  <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" />&nbsp;
+  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />&nbsp;
+  <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" />&nbsp;
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />&nbsp;
+</p>
 
-1. VS Code
-2. Javascript
-3. NodeJs
-4. Postman
-5. Markdown
+
+----
 
 <a id="sites"></a>
 
-## My Favorite Coding Related Sites
-
-----
+## My Favorite Browser Coding Related Sites :globe_with_meridians: 
 
 | Name | URL | Description |
 | ---  | :---: | ----------- |
-| W3School | [https://w3schools.com](https://www.w3schools.com/) | A web dev site that offer a lot of module for a wide variety of programming language. |
-| edX | <https://home.edx.org> | A dev course site that founded by Harvard and MIT and house one of the well known courses like CS50 with it's host David J. Malan. |
-| Stack Overflow | <https://stackoverflow.com/> | Programming related forum site that looks and works exactly like Reddit. If you happened to stumble upon a problem or roadblock, then you can find most of the solution here. |
-| GitHub | <https://github.com/> | The most popular site to publish and collaborate on Git repositories. Just like Git, it offers distributed version control and source control management and additional features that can only be found in this site. |
+| Firefox | [![Firefox](https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white)](https://www.mozilla.org/id/firefox/new/) | Very recommended browser for all device including Windows for it's sparse usage of memory and cpu and overall lightweight size |
+| Reddit | [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?style=for-the-badge&logo=Reddit&logoColor=white)](https://www.reddit.com/r/programming) | An all around forum site where people discuss and share questions and topics about anything including programming related. |
+| edX | [![edX](https://img.shields.io/badge/edX-%2302262B.svg?style=for-the-badge&logo=edX&logoColor=white)](https://home.edx.org) | A dev course site that founded by Harvard and MIT and house one of the well known courses like CS50 with it's host David J. Malan. |
+| Stack Overflow |[![Stack Overflow Badge](https://img.shields.io/badge/Stack%20Overflow-F58025?logo=stackoverflow&logoColor=fff&style=flat)](https://stackoverflow.com) | Programming related forum site that looks and works exactly like Reddit. If you happened to stumble upon a problem or roadblock, then you can find most of the solution here. |
+| GitHub | [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com) | The most popular site to publish and collaborate on Git repositories. Just like Git, it offers distributed version control, source control management and additional features that can only be found in this site. |
+| ChatGPT | [![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)](https://chat.openai.com/) | A large language-model-based  AI chatbot developed by OpenAI. Which makes it best utilized for coding by asking the exact step for creating a certain script |
+
+----
 
 <a id="snippets"></a>
 
-## Code Examples I Have Written
-
-----
+## Code Examples I Have Written 👾
 
 ### HTML Calculator
 
@@ -196,11 +203,15 @@ init();
 
 ```
 
+----
+
 <a id="assignment"></a>
 
-## Week 00 Assignment Qualifications
+## Week 00 Assignment Qualifications 📋
 
 - [X] Create the fundamental Markdown structure for your responsive website.
 - [x] Emphasize the utilization of proper Markdown semantics for each element.
 - [x] Develop the core content of your website, including headers, paragraphs, and images.
-- [ ] Initialize a GitHub repository for your project and push your initial Markdown code into it.
+- [x] Initialize a GitHub repository for your project and push your initial Markdown code into it.
+
+----
