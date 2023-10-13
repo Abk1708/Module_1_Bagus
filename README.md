@@ -58,9 +58,9 @@ My hobby is reading novel and playing games. My favorite programming language is
 | Name | URL | Description |
 | ---  | :---: | ----------- |
 | W3School | [https://w3schools.com](https://www.w3schools.com/) | A web dev site that offer a lot of module for a wide variety of programming language. |
-| edX | <https://home.edx.org> | A dev course site that founded by Harvard and MIT and house one of the famous courses like CS50 with it's host David J. Malan. |
+| edX | <https://home.edx.org> | A dev course site that founded by Harvard and MIT and house one of the well known courses like CS50 with it's host David J. Malan. |
 | Stack Overflow | <https://stackoverflow.com/> | Programming related forum site that looks and works exactly like Reddit. If you happened to stumble upon a problem or roadblock, then you can find most of the solution here. |
-| GitHub | <https://github.com/> | This is the site where you can share your code repository and clone(Download) other user repository |
+| GitHub | <https://github.com/> | The most popular site to publish and collaborate on Git repositories. Just like Git, it offers distributed version control and source control management and additional features that can only be found in this site. |
 
 <a id="snippets"></a>
 
@@ -198,7 +198,7 @@ init();
 
 <a id="assignment"></a>
 
-## Week 00 Assignment Qualification
+## Week 00 Assignment Qualifications
 
 - [X] Create the fundamental Markdown structure for your responsive website.
 - [x] Emphasize the utilization of proper Markdown semantics for each element.
