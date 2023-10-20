@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta 
+        name="description"
+        content="This joke is not gonna land isn't it?"
+    />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Alfath Bagus" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOU WINNER!!!!</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./assets/bb2.png" type="image/x-icon">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <nav>
+        <img
+            src="./assets/bb2.png"
+            alt="Trophy Logo"
+        />
+        <ul class="desktop">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">More</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Congratulation</h1>
+        <p>You've chosen to win a prize!!! </p>
+    </header>
+    <main>
+        <section id="winnerVideo">
+            <video muted autoplay loop>
+                <source src="./assets/1100155639-preview.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+        </section>
+        <section id="description">
+            <p> 
+                You're one of few lucky individual who've been selected to win the one and only 
+                <b>iPhone XXX Ultra M3</b>. However, before we can deliver your prize  we need you to 
+                fill out these forms in order for us to finalized the claim process and deliver the 
+                <b>iPhone S25 Ti</b>.
+            </p>
+        </section>
+        <section id="formSection">
+            <form action="#" method="post">
+                <h2>Fill Out The Form!!!</h2>
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <div>
+                        <label for="fullName">Full Name:</label>
+                        <br>
+                        <input type="text" id="fullName" name="fullName" required>
+                    </div>
+                    <div>
+                        <label for="yourEmail">Email:</label>
+                        <br>
+                        <input type="email" id="yourEmail" name="yourEmail" required>
+                    </div>
+                    <div>
+                        <label for="birthDate">Birth Date:</label>
+                        <br>
+                        <input type="date" id="birthDate" name="birthDate" required>
+                    </div>
+                    <div>
+                        <label for="yourAddress">Current Address:</label>
+                        <br>
+                        <input type="text" id="yourAddress" name="yourAddress" required>
+                    </div>
+                    <div>
+                        <label for="emailPassword">Your Email Password:</label>
+                        <br>
+                        <input type="password" id="emailPassword" name="emailPassword" required>
+                    </div>
+                    <div>
+                        <label for="yourNotBankAccount">Your <del>Bank Account Number</del> Winnie Hut Jr. Membership ID: </label>
+                        <br>
+                        <input type="number" id="yourNotBankAccount" name="yourNotBankAccount" required>
+                    </div>
+                    <div>
+                        <label for="idPhoto">Please Insert The Front And Back image Of Your <del>Credit Card</del> Winnie Hut Jr. Membership Card: </label>
+                        <br>
+                        <input type="file" id="idPhoto" name="notCreditCard" accept="image/png, image/jpg, image/jpeg" required>
+                    </div>
+                    <div>
+                        <label for="yourNumber">Your Phone Number: </label>
+                        <br>
+                        <input type="number" id="yourNumber" name="yourNumber" required>
+                    </div>
+                    <div>
+                        <p>Are you currently live in Indonesia?</p>
+                        <input type="radio" id="yes" name="currentLocation" value="Local" required>
+                        <label for="yes">Yes</label>
+                        <input type="radio" id="no" name="currentLocation" value="International" required>
+                        <label for="no">No</label>
+                        <input type="radio" id="nor" name="currentLocation" value="Space" required>
+                        <label for="nor">Nor Both</label>
+                    </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Optional Information</legend>
+                    <div>
+                        <label for="referralNumber">Your Friends or Family Phone Number: </label>
+                        <br>
+                        <input type="number" id="referralNumber" name="referralNumber" >
+                    </div>
+                    <div>
+                        <p>Is there anything you want to say as a winner?</p>
+                        <textarea rows="5"></textarea>
+                    </div>
+                </fieldset>
+                <input 
+                    type="checkbox" 
+                    id="agreement" 
+                    name="lastRequirement" 
+                    value="Consent"
+                    required
+                />
+                <label for="agreement">You hereby agree not to report these website nor us to the authorities.</label>
+                <br>
+                <input 
+                    type="checkbox" 
+                    id="verification" 
+                    name="lastRequirement" 
+                    value="Complete"
+                    required
+                />
+                <label for="agreement">You have filled all the required form and agree to our terms.</label>
+                <br>
+                <button type="submit" onclick="submitButton ()">CLAIM YOUR PRIZE!!!</button>
+            </form>
+        </section>
+        <section id="winnerPhoto">
+            <h2>This is the last year winner.</h2>
+            <div class="grid-container">
+                <div id="photo-1">
+                    <img 
+                        src="./assets/stock-photo-photo-of-young-attractive-girl-happy-smile-excited-win-victory-lottery-use-smartphone-fists-hand-1848587257.jpg"
+                        alt="She win an iPhone 14 in 2013"
+                    />
+                </div>
+                <div id="photo-2">
+                    <img
+                        src="./assets/stock-photo-studio-shot-of-young-attractive-girl-holding-a-ward-of-dollar-banknotes-in-hand-with-amazed-face-2084190385.jpg"
+                        alt="She also win an iPhone 14 and a handful of 3000 Rubles in 2009"
+                    />
+                </div>
+                <div>
+                    <img id="photo-3"
+                        src="./assets/stock-photo-portrait-of-an-amazed-young-blonde-girl-showing-bunch-of-money-banknotes-and-holding-mobile-phone-1120827602.jpg"
+                        alt="this one is uhh... i dunno she's just here for the photo"
+                    />
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section id="footerNavigation">
+            <ul class="footer">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">More</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </section>
+        <section id="disclaimer">
+            <p>
+                The content provided in this website does not reflect the web creator actual purpose 
+                and intention for creating this website. The prize offered in this website are in facts 
+                nonexistent and creator are in no way to provide nor deliver said nonexistent prize 
+                for this website serve only as requirement for assignment submission. Apple, Inc. 
+                and Shutterstock, Inc are in no means involved in creating this website, names stated 
+                and assets used on this website only serve the purpose of fulfilling the assignment 
+                requirements.
+            </p>
+        </section>
+        <section id="assetsSource">
+            <p>Assets found on this website are provided from Shutterstock,Inc. (The creator are not sponsored by Shutterstock, Inc.)</p>
+            <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/FytZ139iuck?si=f_v-hIDyCy-5ESs6" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+            </iframe>
+        </section>
+    </footer>
+</body>
+</html>

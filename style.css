@@ -1,0 +1,181 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+section {
+    margin: 0 16px;
+}
+
+nav {
+    position: fixed;
+    background-color: #FFC60B;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 52px;
+    border-bottom: 2px solid #FF8B00;
+}
+
+nav > img {
+    width: 50px;
+}
+
+nav > ul {
+    margin-left: auto;
+    margin-right: 16px;
+}
+
+nav > ul > li {
+    display: inline-block;
+}
+
+header {
+    text-align: center;
+    color: black;
+    background-color: #FF8B00;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 48px;
+}
+
+header h1 {
+    margin: 16px;
+    font-size: 80px;
+}
+
+header p {
+    margin: 0;
+    font-size: 30px;
+}
+
+#winnerVideo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0 50px;
+}
+
+#description {
+    text-align: center;
+    margin: 60px;
+    padding: 0 200px;
+    font-size: 32px;
+    color: gray;
+}
+
+#description b {
+    font-size: 40px;
+    color: black;
+}
+
+#formSection {
+    background-color: #FF8B00;
+    padding: 8px;
+    margin-top: 16px;
+    border-radius: 8px;
+}
+
+#formSection h2 {
+    text-align: center;
+}
+
+#formSection form {
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+fieldset {
+    margin: 16px 0;
+    border-radius: 6px;
+}
+
+fieldset > legend, label, p {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 4px 4px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #FFC60B;
+    border-radius: 4px;
+}
+
+input[type="date"],
+input[type="file"] {
+    margin: 8px 0;
+    border-radius: 4px;
+    border: 1px solid #FFC60B;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    background-color: #FFC60B;
+    border: 1px solid #FF8B00;
+    border-radius: 4px;
+    width: 100%;
+    padding: 6px 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#winnerPhoto > h2 {
+    margin: 200px 0 100px;
+    text-align: center;
+    font-size: 50px;
+}
+
+#winnerPhoto .grid-container {
+    margin: 0 0 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#winnerPhoto .grid-container img {
+    width: 350px;
+}
+
+footer {
+    background-color: #D61C4E;
+    width: 100%;
+    border-top: 2px solid #FF8B00 ;
+}
+
+#footerNavigation {
+    display: flex;
+    align-items: center;
+}
+
+#footerNavigation > ul {
+    margin-left: auto;
+    margin-right: 16px;
+}
+
+#footerNavigation > ul > li {
+    display: inline-block;
+}
+
+#disclaimer p {
+    padding: 0 950px 0 0;
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif, Georgia;
+}
+
+#assetsSource p {
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif, Georgia;
+}
