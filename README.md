@@ -17,13 +17,13 @@
 > - [Week 00 Assignment Qualification](#assignment)
 >
 
----
+----
 
 <a id="bio"></a>
 
 ## My Bio 👨‍💻
 
-![It's a me](placeholder-profile-image.jpg "It's a me")
+![It's a me](./assets/placeholder-profile-image.jpg "It's a me")
 
 I'm a diploma fresh graduate from Jakarta State University in Electronic Engineering and currently working as a HRD clerk.
 
