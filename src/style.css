@@ -1,6 +1,8 @@
+/* Import the required assets such as fonts and .svg background */
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 @import url(../src/svg_background.css);
 
+/* Start of main elements config */
 * {
     margin: 0;
     padding: 0;
@@ -10,9 +12,14 @@
 html {
     font-family: 'Orbitron', sans-serif;
     color: white;
-
 }
 
+h2 {
+    font-size: 30px;
+}
+/* End of main element config */
+
+/* Start of nav-bar elements config */
 li {
     list-style: none;
 }
@@ -75,7 +82,9 @@ nav > ul > li {
     max-width: 476px;
     margin-left: 500px;
 }
+/* End of nav-bar elements config */
 
+/* Start of header elements config */
 header {
     background: url(../assets/bg_top_stars.jpg) ;
     text-align: center;
@@ -84,6 +93,7 @@ header {
     flex-direction: column;
     justify-content: center;
     padding-top: 48px;
+    gap: 50px;
 }
 
 #description {
@@ -101,8 +111,9 @@ header {
     text-align: center;
     padding: 0 200px;
 }
+/* End of header elements config */
 
-
+/* Start of the narrative section elements config */
 #narrative-1 {
     height: 480px;
     display: flex;
@@ -112,6 +123,9 @@ header {
 
 #narrative_1_article {
     width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 #narrative-2 {
@@ -124,6 +138,9 @@ header {
 
 #narrative_2_article {
     width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 #narrative-3 {
@@ -135,6 +152,9 @@ header {
 
 #narrative_3_article {
     width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 #narrative-4 {
@@ -148,8 +168,13 @@ header {
 
 #narrative_4_article {
     width: 440px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
+/* End of the narrative section elements config */
 
+/* Start of the feature section elements config */
 #features {
     /* background-color: #301E67; */
     display: flex;
@@ -173,7 +198,9 @@ header {
 .featureCard {
     width: 610px;
 }
+/* End of the feature section elements config */
 
+/* Start of the game acquiring information section elements config */
 #whereToGet {
     height: 660px;
     /* background-color: #03001C; */
@@ -184,7 +211,12 @@ header {
     gap: 50px;
 }
 
+.dev-links {
+    color: aqua;
+}
+/* End of the game acquiring information section elements config */
 
+/* Start of the registration forms section elements config */
 #registrationForms {
     height: 1280px;
     /* background-color: #301E67; */
@@ -242,7 +274,9 @@ button[type="submit"] {
     font-weight: bold;
     cursor: pointer;
 }
+/* End of the registration forms section elements config */
 
+/* Start of the footer section elements config */
 footer {
     background: url(../assets/bg_bottom_glow.jpg);
     background-size: cover;
@@ -250,6 +284,8 @@ footer {
     justify-content: space-between;
     align-items: flex-end;
 }
+/* End of the footer section elements config */
+
 
 @media only screen and (max-width: 1354px) {
     .nav-links {
@@ -305,7 +341,7 @@ footer {
         top: 2.55rem;
         display: flex;
         flex-direction: column;
-        background-color: blue;
+        background-color: #03001C;
         width: 768px;
         text-align: center;
         transition: 0.3s;
