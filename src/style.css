@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url(../src/svg_background.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #03001C;
+    margin: 0;
+}
+
+nav {
+    background-color: #03001C;
+    position: fixed;
+    width: 100%;
+    height: 41px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #03001C;
+}
+
+nav > ul {
+    margin-left: auto;
+    margin-right: 16px;
+}
+
+nav > ul > li {
+
+    display: inline-block;
+}
+
+.navLinks {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: #475569;
+}
+
+.navLinks:hover {
+    color: #482ff7;
+}
+
+#navBanner {
+    max-width: 476px;
+    margin-left: 500px;
+}
+
+header {
+    background: url(../assets/bg_top_stars.jpg) ;
+    text-align: center;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 48px;
+}
+
+#description {
+    height: 620px;
+    background: url(../assets/orbit.jpg) repeat-x;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+#description > p {
+    text-align: center;
+    padding: 0 200px;
+}
+
+
+#narrative-1 {
+    height: 480px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#narrative_1_article {
+    width: 400px;
+}
+
+#narrative-2 {
+    height: 480px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+#narrative_2_article {
+    width: 400px;
+}
+
+#narrative-3 {
+    height: 480px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#narrative_3_article {
+    width: 400px;
+}
+
+#narrative-4 {
+    height: 520px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+#narrative_4_article {
+    width: 440px;
+}
+
+#features {
+    /* background-color: #301E67; */
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#features > h2 {
+    text-align: center;
+    margin: 50px;
+}
+
+#featureList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+}
+
+.featureCard {
+    width: 610px;
+}
+
+#whereToGet {
+    height: 660px;
+    /* background-color: #03001C; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+#registrationForms {
+    height: 1280px;
+    /* background-color: #301E67; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+#registrationForms > h2 {
+    text-align: center;
+}
+
+#registrationForms > form {
+    width: 600px;
+    background-color: white;
+    border-radius: 18px;
+    height: 860px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.form-text {
+    font-family: 'Orbitron', sans-serif;
+    color: black;
+    width: 80%;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+.radio-button {
+    display: flex;
+    gap: 10px;
+}
+
+.checkbox {
+    width: 480px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+button[type="submit"] {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 80%;
+    padding: 6px 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer {
+    background: url(../assets/bg_bottom_glow.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+@media only screen and (max-width: 1354px) {
+    .nav-links {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #03001C;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow: 
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+    
+    .nav-links.active {
+        left: 0;
+    }
+
+    .navLinks {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    #navBanner {
+        /* display: none; */
+        margin-left: 0;
+        margin-right: 400px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-links {
+        position: fixed;
+        left: -100%;
+        top: 2.55rem;
+        display: flex;
+        flex-direction: column;
+        background-color: blue;
+        width: 768px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow: 
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+    
+    .nav-links.active {
+        left: 0;
+    }
+
+    .navLinks {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .bar {
+        background-color: white;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    #navBanner {
+        margin-left: 100px;
+    }
+
+    header {
+        align-items: center;
+    }
+
+    header > h1, p{
+        width: 584px;
+    }
+
+    #description > p{
+        padding: 0;
+    }
+
+    #narrative-1 {
+        height: 760px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #narrative-2 {
+        height: 760px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #narrative-3 {
+        height: 760px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #narrative-4 {
+        height: 760px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #whereToGet {
+        height: 720px;
+    }
+
+}
